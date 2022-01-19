@@ -7,11 +7,9 @@
 		<link rel="icon" href="site/icon.png">
 	</head>
 	<body>
-		<script> function nope() { document.getElementById("disappear").style.display = "none"; } </script>
-		<script> function yesh() { document.getElementById("appear").style.display = "block"; } </script>
+		<script> function nope(s) { document.getElementById(s).style.display = "none"; } </script>
+		<script> function yesh(s) { document.getElementById(s).style.display = "block"; } </script>
 		<a href="https://rickrolled.fr/" class="rickroll">click me</a>
-		<button id="disappear" onclick="nope()">oof</button>
-		<button id="appear" onclick="yes()">amogus</button>
-		<img id="appear" src="https://cdn2.clc2l.fr/t/A/m/Among-Us-oAEaxX.png">
+		<button id="disappear" onclick="nope(disappear)">oof</button>
 	</body>
 </html>
