@@ -1,3 +1,8 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
 body {
 	background-color: #adbcc9;
 	font-family: "Lucida Console", "American Typewriter", monospace;
