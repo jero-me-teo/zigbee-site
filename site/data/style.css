@@ -1,6 +1,9 @@
-.rickroll {
-	color: #000080;
-	text-decoration: none;
+body {
+	background-color: #adbcc9;
+	font-family: "Lucida Console", "American Typewriter", monospace;
 }
 
-body { background-color: #d0d0ff; }
+#content-holder {
+	background-color: #add8ff;
+	margin: 0 16%;
+}
