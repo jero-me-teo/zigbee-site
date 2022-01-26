@@ -21,9 +21,11 @@ body {
 }
 
 #title-holder {
+	background-color: #97b8f0;
 	margin: 2% 8%;
 	width: 84%;
 	height: 8%;
+	border-bottom: solid 2px #7393c9;
 	display: flex;
 	justify-content: center;
 	align-items: center;
