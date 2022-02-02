@@ -1,16 +1,18 @@
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+
 $(window).load(function() {
-  setTimeout(l1(), 1000);
+  while (true) {
+    var html = "Welcome";
+    document.getElementById("welcome").innerHTML = html;
+    sleep(1000);
+    var html = "Prítáný";
+    document.getElementById("welcome").innerHTML = html;
+    sleep(1000);
+  }
 })
-
-
-function l1() {
-  var html = "Welcome";
-  document.getElementById("welcome").innerHTML = html;
-  setTimeout(l2(), 1000);
-}
-
-function l2() {
-  var html = "Welcome";
-  document.getElementById("welcome").innerHTML = html;
-  setTimeout(l1(), 1000);
-}
