@@ -50,3 +50,13 @@ h1 {
 	width: 30%;
 	height: 22%;
 }
+
+.name-text {
+	color: #086480;
+	font-size: 18px;
+}
+
+.lname {
+	font-variant: small-caps;
+	font-weight: 600;
+}
