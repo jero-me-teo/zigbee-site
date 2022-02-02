@@ -38,6 +38,7 @@ h1 {
 }
 
 .relief-block {
+	padding: 3px;
 	border-bottom: solid 4px #7393c9;
 	background-color: #97b8f0;
 }
