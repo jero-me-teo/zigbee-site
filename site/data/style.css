@@ -40,9 +40,6 @@ h1 {
 .relief-block {
 	border-bottom: solid 4px #7393c9;
 	background-color: #97b8f0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 #intro-block {
