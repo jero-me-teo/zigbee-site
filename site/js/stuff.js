@@ -1,18 +1,12 @@
-function sleep(milliseconds) {
-  const date = Date.now();
-  let currentDate = null;
-  do {
-    currentDate = Date.now();
-  } while (currentDate - date < milliseconds);
+function change(html) {
+    document.getElementById("welcome").innerHTML = html;
 }
 
 $(window).load(function() {
   while (true) {
     var html = "Welcome";
-    document.getElementById("welcome").innerHTML = html;
-    sleep(1000);
+    setTimeout(change, 2000, html);
     var html = "Prítáný";
-    document.getElementById("welcome").innerHTML = html;
-    sleep(1000);
+    setTimeout(change, 2000, html);
   }
-})
+}
