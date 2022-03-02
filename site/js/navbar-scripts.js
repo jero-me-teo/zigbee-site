@@ -1,9 +1,9 @@
-/*function display(element) {
+function display(element) {
 	switch(element.id) {
 		case 'measures':
-			$( "#main" ).load("localhost://D:/zigsite/site/tabs/measures.html");0
+			$( "#main" ).load("site/tabs/measures.html");
 	}
-}*/
+}
 
 function expandNavbar(element) {
 	const pW = document.getElementById('tab-bar').clientWidth;
