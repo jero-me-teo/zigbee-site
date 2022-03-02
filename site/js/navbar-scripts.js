@@ -21,7 +21,7 @@ function expandNavbar(element) {
 function reduceNavbar(element) {
 	const pW = document.getElementById('tab-bar').clientWidth;
 	const h = element.clientWidth;
-	if (element.clientWidth > (pW / 4.53)) {
+	if (element.clientWidth > (pW / 4.8)) {
 		element.style.width = h - 10 + 'px';
 		setTimeout(reduceNavbar, 20, element);
 	} else {
