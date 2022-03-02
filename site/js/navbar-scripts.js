@@ -7,7 +7,6 @@ function display(element) {
 		case 'history':
 			$( "#main" ).load("site/tabs/history.html"); break;
 	}
-	$( "#main" ).fadeIn(600);
 }
 
 function expandNavbar(element) {
@@ -18,7 +17,6 @@ function expandNavbar(element) {
 		setTimeout(expandNavbar, 20, element);
 	} else {
 		element.style.fontSize = 20 + 'px';
-		$( "#main" ).fadeOut(600, display(element));
 		return 0;
 	} 
 }
