@@ -17,6 +17,7 @@ function expandNavbar(element) {
 		setTimeout(expandNavbar, 20, element);
 	} else {
 		element.style.fontSize = 20 + 'px';
+		display(element);
 		return 0;
 	} 
 }
