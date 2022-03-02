@@ -1,9 +1,9 @@
-html {
+html { /* Tout */
 	width: 100vw;
 	height: 100vh;
 }
 
-body {
+body { /* Corps du contenu */
 	background-color: #adbcc9;
 	font-family: "Lucida Console", "American Typewriter", monospace;
 	width: 100vw;
@@ -11,7 +11,7 @@ body {
 	margin: 0;
 }
 
-#content-holder {
+#content-holder { /* La colonne bleutée dans laquelle est le contenu */
 	background-color: #add8ff;
 	margin: 0 22%;
 	width: 56%;
@@ -20,7 +20,7 @@ body {
 	flex-direction: column;
 }
 
-#title-holder {
+#title-holder { /* La division contenant le titre */
 	background-color: #97b8f0;
 	margin: 3% 8%;
 	width: 84%;
@@ -31,32 +31,23 @@ body {
 	align-items: center;
 }
 
+/* Les deux images dans la div titre */
 #suntitle { margin-right: 30%; }
 #cloudtitle { margin-left: 30%; }
 
-h1 {
+h1 { /* Formatage personnalisé de l'élément h1 */
 	font-size: 2em;
 	font-weight: 800;
 	color: #06365c;
 }
 
-.relief-block {
+.relief-block { /* Les blocs de contenu */
 	padding: 6px;
 	border-bottom: solid 4px #7393c9;
 	background-color: #97b8f0;
 }
 
-.name-text {
-	color: #086480;
-	font-size: 18px;
-}
-
-.lname {
-	font-variant: small-caps;
-	font-weight: 600;
-}
-
-#tab-bar {
+#tab-bar { /* La barre de navigation */
 	position: relative;
 	width: 97%;
 	height: 2.5%;
@@ -69,7 +60,7 @@ h1 {
 	flex-wrap: nowrap;
 }
 
-.navbar-button {
+.navbar-button { /* Les boutons de la navbar */
 	display: inline-block;
 	position: relative;
 	margin: 0;
@@ -78,13 +69,13 @@ h1 {
 	text-align: center;
 }
 
-.navbar-button:hover {
+.navbar-button:hover { /* Effets spéciaux quand on passe la souris sur la navbar */
 	text-decoration: underline 3px;
 	cursor: pointer;
 	background-color: #8fb3ef;
 }
 
-.vbar {
+.vbar { /* Petits séparateurs entre boutons de la navbar */
 	position: relative;
 	width: 0%;
 	height: 80%;
@@ -92,19 +83,19 @@ h1 {
 	margin: 0 1%;
 }
 
-#main {
+#main { /* Une div technique pour le contenu */
 	height: 100%;
 	padding: 2%;
 }
 
-#bottom-wrap {
+#bottom-wrap { /* Division spéciale alignant son contenu en bas */
 	height: 5%;
 	width: 98%;
 	display: flex;
 	padding: 1%;
 }
 
-#bottom-wrap div {
+#bottom-wrap div { /* Texte grisé en bas de page */
 	align-self: flex-end;
 	text-align: right;
 	position: relative;
