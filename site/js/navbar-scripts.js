@@ -1,8 +1,13 @@
 function display(element) {
 	switch(element.id) {
 		case 'measures':
-			$( "#main" ).load("site/tabs/measures.html");
+			$( "#main" ).load("site/tabs/measures.html"); break;
+		case 'graphs':
+			$( "#main" ).load("site/tabs/graphs.html"); break;
+		case 'history':
+			$( "#main" ).load("site/tabs/history.html"); break;
 	}
+	element.fadeIn(600);
 }
 
 function expandNavbar(element) {
@@ -13,7 +18,7 @@ function expandNavbar(element) {
 		setTimeout(expandNavbar, 20, element);
 	} else {
 		element.style.fontSize = 20 + 'px';
-		display(element);
+		element.fadeOut(600, display(element));
 		return 0;
 	} 
 }
