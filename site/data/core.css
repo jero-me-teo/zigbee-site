@@ -103,3 +103,7 @@ h1 { /* Formatage personnalisé de l'élément h1 */
 	font-size: 11px;
 	color: #808080;
 }
+
+#bottom-link {
+	color: #808080;
+}
