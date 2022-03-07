@@ -34,6 +34,9 @@
 			<div id="main">
 				<!-- Main content here -->
 				content here mf
+				<?php
+					echo "pok<br>";
+				?>
 			</div>
 			
 			<!-- Footer avec informations -->
